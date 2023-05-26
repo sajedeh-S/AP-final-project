@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane style="-fx-background-color: white" prefHeight="900.0" prefWidth="1700.0" xmlns="http://javafx.com/javafx/1.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Graphics.Controller.PaintController">
+    <children>
+        <Button fx:id="choosefile" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onPaintButton" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" opacity="0.85" prefHeight="42.0" prefWidth="120.0" styleClass="choosefile" stylesheets="@../css/Paint.css" text="Choose File" />
+        <Button fx:id="shapes" layoutX="164.0" layoutY="14.0" mnemonicParsing="false" onAction="#onPaintButton" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" opacity="0.85" prefHeight="42.0" prefWidth="120.0" styleClass="shapes" stylesheets="@../css/Paint.css" text="Shapes" />
+        <Button fx:id="save" layoutX="314.0" layoutY="14.0" mnemonicParsing="false" onAction="#onPaintButton" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" opacity="0.85" prefHeight="42.0" prefWidth="120.0" styleClass="save" stylesheets="@../css/Paint.css" text="Save" />
+        <Line endX="1750" endY="200" layoutX="-22.0" layoutY="-121.0" startX="22.999996185302734" startY="200" />
+        <Hyperlink fx:id="about" layoutX="1650.0" onAction="#onPaintButton" styleClass="about" stylesheets="@../css/Paint.css" text="About"/>
+    </children>
+</AnchorPane>

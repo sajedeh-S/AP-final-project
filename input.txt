@@ -1,0 +1,4 @@
+type=circle name=circle1 radius=10 color=red position=(400,200)
+name=rectangle1 type=rectangle color=blue position=(700,100)
+type=Ellipse name=eli  position=(100,200)
+position=(300,400) name=squareeee color=black length=90 type=Square

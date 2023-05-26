@@ -1,0 +1,28 @@
+.Circle{
+    -fx-font-family: "Bodoni MT Black" ;
+    -fx-font-size: 10;
+    -fx-background-radius: 40;
+    -fx-background-color: #60deaa;
+    -fx-effect: dropshadow(two-pass-box, gray, 12, -10, -10,10);
+}
+.Ellipse{
+    -fx-font-family: "Bodoni MT Black" ;
+    -fx-font-size: 10;
+    -fx-background-radius: 40;
+    -fx-background-color: #60a7de;
+    -fx-effect: dropshadow(two-pass-box, gray, 12, -10, -10,10);
+}
+.Rectangle{
+    -fx-font-family: "Bodoni MT Black" ;
+    -fx-font-size: 10;
+    -fx-background-radius: 40;
+    -fx-background-color: #fdc90f;
+    -fx-effect: dropshadow(two-pass-box, gray, 12, -10, -10,10);
+}
+.Square{
+    -fx-font-family: "Bodoni MT Black" ;
+    -fx-font-size: 10;
+    -fx-background-radius: 40;
+    -fx-background-color: #fd0f9e;
+    -fx-effect: dropshadow(two-pass-box, gray, 12, -10, -10,10);
+}

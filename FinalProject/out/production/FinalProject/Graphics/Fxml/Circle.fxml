@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="168.0" prefWidth="208.0" xmlns="http://javafx.com/javafx/1.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Graphics.Controller.CircleController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="15.0">
+               <children>
+                  <Label text="Name :" styleClass="about" stylesheets="@../css/Paint.css" />
+                  <Label text="Radius :" styleClass="about" stylesheets="@../css/Paint.css" />
+                  <Label text="Position X :" styleClass="about" stylesheets="@../css/Paint.css" />
+                  <Label text="Position Y :" styleClass="about" stylesheets="@../css/Paint.css" />
+                  <Label text="Color :" styleClass="about" stylesheets="@../css/Paint.css" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="8.0">
+               <children>
+                  <TextField fx:id="name" styleClass="txtfield" stylesheets="@../css/Circle.css" />
+                  <TextField fx:id="radius" styleClass="txtfield" stylesheets="@../css/Circle.css" />
+                  <TextField fx:id="positionX" styleClass="txtfield" stylesheets="@../css/Circle.css" />
+                  <TextField fx:id="positionY" styleClass="txtfield" stylesheets="@../css/Circle.css" />
+                  <ColorPicker fx:id="color" styleClass="txtfield" stylesheets="@../css/Circle.css" />
+               </children>
+            </VBox>
+         </children></HBox>
+      <Button fx:id="drawBTN" alignment="CENTER" layoutX="75" layoutY="170.0" mnemonicParsing="false" onAction="#onCircleButton" prefHeight="27.0" prefWidth="70.0"
+              onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" opacity="0.85" styleClass="btn" stylesheets="@../css/Circle.css" text="Draw" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+.btn{
+    -fx-font-family: "Bodoni MT Black" ;
+    -fx-font-size: 10;
+    -fx-background-radius: 30;
+    -fx-background-color: #cb5de9;
+    -fx-effect: dropshadow(two-pass-box, gray, 12, -10, -10,10);
+}
+
+.txtfield {
+    -fx-font-family: "Bodoni MT Black";
+    -fx-font-size: 12;
+    -fx-background-radius: 30;
+    -fx-background-color: #facd89;
+}
